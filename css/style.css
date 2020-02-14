@@ -6,14 +6,33 @@ body {
 li {
 	display: inline;
 	list-style: none;
-	padding-right: 10px;
+	padding-right: 30px;
+	padding-top: 40px;
 	float: right;
 }
 li a {
+	font-family: 'Kreon', serif;
 	margin: 10px;
 	font-size: 20px;
-	color: white;
+	color: gray;
 	text-decoration: none;
+	transition: .5s;
+	
+}
+
+.home-nav {
+	font-family: 'Kreon', serif;
+	position: absolute;
+	text-decoration: none;
+	padding-top: 40px;
+	padding-left: 40px;
+	color: white;
+	font-size: 18px;
+	transition: .5s;
+}
+
+.home-nav:hover{
+	color: orange;
 	transition: .5s;
 }
 
@@ -28,6 +47,6 @@ header {
 	padding: 0;
 }
 li :hover{
-	color: gray;
+	color: white;
 	transition: .5s;
 }
